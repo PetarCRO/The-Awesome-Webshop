@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 67.5%;
+}
+
+header {
+  padding: 3rem;
+  background-color: rebeccapurple;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav h1 {
+  font-size: 3rem;
+  color: yellow;
+  text-decoration: underline;
+}
+
+nav a {
+  list-style: none;
+  text-decoration: none;
+  color: yellow;
+  font-size: 1.5rem;
+}
+
+#gift {
+  color: yellow;
+  font-size: 2rem;
+}
+
+#cart {
+  color: yellow;
+  font-size: 2rem;
+}
