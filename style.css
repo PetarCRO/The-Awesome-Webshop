@@ -5,40 +5,56 @@
 }
 
 html {
-  font-size: 67.5%;
+  font-size: 62.5%;
 }
 
 header {
-  padding: 3rem;
   background-color: rebeccapurple;
+  position: sticky;
 }
 
 nav {
+  min-height: 15vh;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  width: 90%;
+  margin: auto;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 60rem;
+  list-style: none;
+}
+
+nav ul li a {
+  color: yellow;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: "Cinzel", serif;
 }
 
 nav h1 {
   font-size: 3rem;
   color: yellow;
   text-decoration: underline;
+  flex: 2 1 20rem;
+  font-family: "Cinzel", serif;
 }
 
-nav a {
-  list-style: none;
-  text-decoration: none;
-  color: yellow;
-  font-size: 1.5rem;
-}
-
-#gift {
-  color: yellow;
-  font-size: 2rem;
+nav h1 img {
+  margin-left: -35px;
+  margin-bottom: -4px;
 }
 
 #cart {
   color: yellow;
-  font-size: 2rem;
+  font-size: 2.2rem;
+}
+
+#gift {
+  color: yellow;
+  font-size: 2.2rem;
 }
